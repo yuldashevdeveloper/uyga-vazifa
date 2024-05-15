@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+@font-face {
+    font-family: heebo;
+    src: url(../Heebo/Heebo-VariableFont_wght.ttf);
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 40px;
+    padding-top: 10px;
+}
+
+nav ul a{
+    font-size: 22px;
+    gap: 20px;
+    font-family:"heebo";
+    font-weight: 600;
+    color: #000000;
+}
+
+.child{
+    color: #FF6464;
+}
+
+.desc-main{
+    padding-top: 140px;
+    font-family: "heebo";
+    font-size: 30px;
+    font-weight: 700;
+    color: #21243D;
+}
+
+.main-title{
+    padding-top: 48px;
+    font-family: "heebo";
+    font-size: 30px;
+    font-weight: 500;
+    color: #21243D;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 13px;
+}
+
+.left-info{
+    font-family: "heebo";
+    font-size: 24px;
+    font-weight: 400;
+    color: #21243D;
+}
+
+.right-info{
+    font-family: "heebo";
+    font-size: 24px;
+    font-weight: 400;
+    color: #8695A4;
+    
+}
+
+.footer-text{
+    padding-top: 15px;
+    font-family: "heebo";
+    font-size: 18px;
+    color: #21243D;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    padding-top: 140px;
+    gap: 70px;
+}
+
+.last-text{
+text-align: center;
+padding-top: 26px;
+font-size: 14px;
+font-weight: 400;
+font-family: "heebo";
+}
